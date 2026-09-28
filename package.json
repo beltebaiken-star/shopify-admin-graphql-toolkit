@@ -1,0 +1,8 @@
+{
+  "name": "shopify-admin-graphql-toolkit-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node demo/mock-pagination.mjs"
+  }
+}
