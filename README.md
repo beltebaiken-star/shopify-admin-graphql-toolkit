@@ -14,6 +14,12 @@ Shopify integrations often break in production because pagination, throttling, p
 
 This project demonstrates cursor pagination, explicit API boundaries and retry/idempotency thinking using a safe synthetic pagination demo.
 
+## Visual proof
+
+The visual below summarizes the **client problem, architecture, validation logic, and delivery outcomes** for this sanitized technical case study.
+
+![Shopify Admin GraphQL Toolkit visual proof](./screenshots/visual-proof-overview.png)
+
 ## Architecture
 
 ```mermaid
