@@ -1,0 +1,14 @@
+query ProductDemo($first: Int!) {
+  products(first: $first) {
+    nodes {
+      id
+      title
+      status
+      updatedAt
+    }
+    pageInfo {
+      hasNextPage
+      endCursor
+    }
+  }
+}
